@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+.h-image{
+    width: 250%;
+    /* width: 789px; */
+height: 477px;
+}
+.h-image1{
+    /* width: 539px; */
+    width: 70%;
+height: 477px;
+}
+.section{
+    /* width: 72%; */
+/* border: 1px solid #B9B9B9; */
+ margin-top: 4%;  
+ /* padding-left: 6%; */
+ padding-right: 4%;
+ text-align: left;
+ margin-bottom: 4%;
+}
+.products{
+    width: 90%;
+    text-align: center;
+    height: 62px;
+    border-bottom: 1px solid #EEEEEE;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+.brands-main{
+    width: 100%;
+    text-align: center;
+    height: 62px;
+    border-bottom: 1px solid #EEEEEE;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+}
+.products-name{
+font-family: "Poppins", sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+}
+.view-product{
+    font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.phone{
+    width: 224px !important;
+    height: 300px !important;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.my-card-body{
+    padding: 90px;
+    margin-top: 30px;
+}
+.card-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1px;
+color: #1AA5C3;
+}
+.card-text{
+    font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+margin-top: 20px;
+
+}
+.omr{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: left;
+color: #606060;
+}
+.price{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 15px;
+letter-spacing: -0.1px;
+text-align: left;
+color: #000000;
+margin-left: 4%;
+}
+.price1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: -0.1px;
+text-align: left;
+color: #777777;
+margin-left: 4%;
+text-decoration: line-through;
+}
+.card-button1{
+    width: 204px;
+    height: 52px;
+    top: 2156.93px;
+    left: 304.74px;
+    padding: 9 58 9 58;
+    gap: 10px;
+    background-color: #1AA5C3;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+}
+.btn-tag{
+    font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0.6px;
+text-align: center;
+color: #EEEEEE;
+margin-top: 8px;
+}
+
+.card-btn{
+    width: 52.05px;
+    height: 20.04px;
+    background-color: #44961D;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5%;
+
+}
+.btn-tag1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 10px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0px;
+text-align: center;
+color: #EEEEEE;
+margin-top: 2px;
+}
+.phone1{
+    width: 132px;
+    height: 180px;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+.card-btn2{
+    width: 43.53px;
+height: 43.88px;
+border-radius: 200px;
+border: 1px solid #DDDDDD;  
+margin-top: 10px;
+margin-left: 75%;
+background-color: #EEEEEE;
+}
+.card-btn2:hover{
+    background-color: #1AA5C3;
+}
+.btn-tag2{
+    color: #000000;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.btn-tag2:hover{
+    color: #EEEEEE;
+}
+.card1-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 10px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 1px;
+color: #1AA5C3;
+}
+.card1-text{
+    font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+
+}
+.price2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: -0.1px;
+text-align: left;
+color: #777777;
+margin-left: 4%;
+text-decoration: line-through;
+}
+
+
+.card-container{
+    margin-top: -10%;
+}
+.apple{
+    width: 43px;
+height: 53px;
+
+}
+.realme{
+    width: 107px;
+    height: 46px;
+    margin-top: 10px;
+}
+.sony{
+    width: 97px;
+    height: 17px;
+    margin-top: 25px;
+}
+.mi{
+    width: 96px;
+    height: 46px;
+    margin-top: 5px;
+}
+.samsung{
+    width: 108px;
+    height: 63px;
+}
+.lg{
+    width: 136px;
+    height: 72px;
+}
+.dell{
+    width: 94px;
+    height: 80px;
+    margin-top: -10px;
+}
+
+.brands{
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-top: 4%;
+    display: flex;
+    gap: 60px;
+
+}
+.brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7{
+    width: 128.83px;
+height: 128.83px;
+border-radius: 66px;  
+padding-top: 2.5%;
+ text-align: center;
+}
+.brand1{
+    background-color: #000000;
+}
+.brand2{
+    background-color: #FFC915;
+}
+.brand3{
+    background-color: #F2F2F2;
+}
+.brand4{
+    background-color: #FF6700;
+}
+.brand5{
+    background-color: #14299E;
+}
+.brand6{
+    background-color: #E50250;
+}
+.brand7{
+    background-color: #017FBC;
+}
+.footer{
+    width: 80%;
+    text-align: center;
+    height: 62px;
+    border-top: 1px solid #EEEEEE;
+    margin-bottom: 10px;  
+    margin-left: 10%;
+}
