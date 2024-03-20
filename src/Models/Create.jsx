@@ -30,7 +30,7 @@ function Create() {
             <Container>
                 <Row>
                     {Data.map((items) => (
-                        <Col key={items.productName} className="col-4" style={{ marginLeft: "40%", marginTop: "8%" }}>
+                        <Col key={items.productName} className="col-4 create">
                             <Card style={{ width: '19rem' }}>
                                 <Card.Img variant="top" src={items.productImg} className='phone1' />
                                 <Card.Body className='card-container' style={{ marginTop: "10%" }}>

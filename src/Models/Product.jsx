@@ -48,17 +48,17 @@ function Product() {
         <div className="p-section">
             <div className="p-content1">
                 <div className="box1">
-                   <img src={headset1} alt="" width={'350px'} height={'414px'}/>
+                   <img src={headset1} alt="" className='hs1'/>
                 </div>
                  <div className="box2">
                      <div className="box3">
-                       <img src={headset4} alt="" width={'81px'} height={'77px'}/>
+                       <img src={headset4} alt="" className='hs2'/>
                     </div>
                     <div className="box3">
-                       <img src={headset3} alt="" width={'81px'} height={'77px'}/>
+                       <img src={headset3} alt="" className='hs2'/>
                     </div>
                     <div className="box4">
-                       <img src={headset2} alt="" width={'81px'} height={'77px'}/>
+                       <img src={headset2} alt="" className='hs2'/>
                     </div>
                  </div>
             </div>
@@ -85,7 +85,7 @@ function Product() {
                         <div className="clr1"></div>
                     </div>
                     <div className="clr-box">
-                        <div className="clr2"><FaCheck style={{color:"white",marginTop:"12%"}}/></div>
+                        <div className="clr2"><FaCheck style={{color:"white"}} className='clrcheck'/></div>
                     </div>
                     <div className="clr-box">
                         <div className="clr3"></div>

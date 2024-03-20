@@ -25,7 +25,7 @@ function Footer() {
             <li className="list-li">Sales</li>
             <li className="list-li">Rhoncus</li>
           </ul>
-          <ul className="list">
+          <ul className="list" id='list'>
             <li className="list-head">MORE INFORMATION</li>
             <li className="list-li">Affiliates</li>
             <li className="list-li">My Accounts</li>
@@ -33,7 +33,7 @@ function Footer() {
             <li className="list-li">Gift Vouchers</li>
             <li className="list-li">Privacy policy</li>
           </ul>
-          <ul className="list">
+          <ul className="list"id='list1' >
             <li className="list-head">SOCIAL MEDIA</li>
             <li className="li-icons">
                 <div className="media1">
@@ -60,7 +60,7 @@ function Footer() {
     <div className="f-section">
             <ul className="list-ul">
                 <li className="list-item"><span className='mobile'>Mobile :</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   </span><span className="view">View All</span></li>
-                <li className="list-item"><span className='mobile'>Electronics :</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Cables & Adapters  |   Electronic Cigarettes  |   Batteries  |   Chargers  |   Home Electronic  |   </span><span className="view">View All</span></li>
+                <li className="list-item" id='electronics'><span className='mobile'>Electronics :</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Cables & Adapters  |   Electronic Cigarettes  |   Batteries  |   Chargers  |   Home Electronic  |   </span><span className="view">View All</span></li>
                 <li className="list-item"><span className='mobile'>Smart Watch:</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   </span><span className="view">View All</span></li>
                 <li className="list-item"><span className='mobile'>Laptop & PC:</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   </span><span className="view">View All</span></li>
                 <li className="list-item"><span className='mobile'>Gaming:</span><span className="li-text" style={{ whiteSpace: 'pre' }}>  Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   Rhoncus  |   </span><span className="view">View All</span></li>

@@ -44,14 +44,14 @@ function Header() {
             <div className="horizontal-line"></div>
           </Col>
           <Col xs="auto">
-            <div className="icon-box"><Link to='/login' style={{color:"#000000"}}> <FaUserLarge /></Link></div>
+            <div className="icon-box"><Link to='/login' style={{color:"#000000"}}> <FaUserLarge className='icon-icon'/></Link></div>
           </Col>
           <Col xs="auto">
-            <div className="icon-box" onClick={handleButtonClick}><FaHeart/></div>
+            <div className="icon-box" onClick={handleButtonClick}><FaHeart className='icon-icon'/></div>
           </Col>
           <Col xs="auto">
             <Link to='/cart'>
-            <div className="icon-box" style={{color:"#000000"}}><FaBasketShopping /></div>
+            <div className="icon-box" style={{color:"#000000"}}><FaBasketShopping className='icon-icon'/></div>
             </Link>
           </Col>
         </Row>

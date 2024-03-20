@@ -142,3 +142,143 @@ text-align: left;
     padding-top: 17px;
     margin-left: 300px;
 }
+
+@media only screen and (max-width: 1024px) and (min-width:540px){
+    .list-head{
+        font-size: 10px !important;
+        width: 120px;
+    }
+    .list-li{
+        font-size: 10px;
+    }
+    .list {
+        list-style-type: none;
+        text-align: left;
+        line-height: 2rem;
+        margin-left: -11%;
+    }
+    #list1{
+        display: none;
+    }
+    #list{
+        margin-left: -60px;
+    }
+    .list-ul{
+        gap: 1px;
+        margin-left: -10px;
+    }
+    .f-section {
+        width: 700px;
+        flex-direction: column;
+        margin-left: -40px;
+    }
+    .mobile{
+        margin-left: -1px;
+        font-size: 9px;
+
+    }
+    .li-text,.view{
+        font-size: 8px;
+    }
+    #electronics{
+        display: none;
+    }
+    .h-line{
+        width: 370px;
+        height: 1px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .contact {
+        margin-top: 15px;
+        margin-left: 35px;
+        flex-direction: row;
+    }
+    .helpline{
+        font-size: 12px;
+    }
+    .number{
+        margin-top: 25px;
+        margin-left: -55px;
+        font-size: 14px;
+    }
+   .copyright{
+    margin-left: -1px;
+    font-size: 11px;
+   }
+   .f-footer {
+    margin-left: -40px;
+    padding-left: 20px;
+    margin-right: -32px;
+}
+}
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+    .list-head{
+        font-size: 10px !important;
+        width: 120px;
+    }
+    .list-li{
+        font-size: 10px;
+    }
+    .list {
+        list-style-type: none;
+        text-align: left;
+        line-height: 2rem;
+        margin-left: -11%;
+    }
+    #list1{
+        display: none;
+    }
+    #list{
+        margin-left: -60px;
+    }
+    .list-ul{
+        gap: 1px;
+        margin-left: -10px;
+    }
+    .f-section {
+        width: 400px;
+        flex-direction: column;
+        margin-left: -40px;
+    }
+    .mobile{
+        margin-left: -1px;
+        font-size: 9px;
+
+    }
+    .li-text,.view{
+        font-size: 8px;
+    }
+    #electronics{
+        display: none;
+    }
+    .h-line{
+        width: 370px;
+        height: 1px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .contact {
+        margin-top: 15px;
+        margin-left: 35px;
+        flex-direction: row;
+    }
+    .helpline{
+        font-size: 12px;
+    }
+    .number{
+        margin-top: 25px;
+        margin-left: -55px;
+        font-size: 14px;
+    }
+   .copyright{
+    margin-left: -1px;
+    font-size: 11px;
+   }
+   .f-footer {
+    margin-left: -40px;
+    padding-left: 20px;
+    margin-right: -32px;
+}
+}

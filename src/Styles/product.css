@@ -414,3 +414,238 @@ text-decoration: line-through;
     width: 1440px;
 
 }
+.hs1{
+    width: 350px;
+    height: 414px;
+}
+.hs2{
+    width: 81px;
+    height: 77px;
+}
+.clrcheck{
+    margin-top:12%;
+}
+
+@media only screen and (max-width: 1024px) and (min-width:540px){
+    .hs1{
+        width: 180px;
+        height: 234px;
+    }
+    .box1{
+        width: 315px;
+        height: 267px;
+    }
+    .box2{
+        margin-top: 1px;
+        gap: 15px;
+    }
+    .box3,.box4{
+        width: 70px;
+        height: 70px;
+        background-color: #F9F9F9;
+        padding-top: 6%;
+    }
+    .hs2{
+        width: 45px;
+        height: 43px;
+    }
+    .p-section{
+        flex-direction: column;
+    }
+    .p-content2{
+        margin-left: 2px;
+        margin-top: 30px;
+    }
+    .airpod{
+        font-size: 25px;
+        line-height: 10px;
+    }
+    .star-id {
+        width: 16px;
+        height: 16px;
+    }
+    .star-text{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .omr{
+        font-size: 10px;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .price1{
+        font-size: 14px;
+    }
+    .rating-para{
+        font-size: 12px;
+        width: 315px;
+    }
+    .rate-clr{
+        font-size: 12px;
+    }
+    .clr-box{
+        width: 43px;
+        height: 43px;
+    }
+    .clr1,.clr2,.clr3,.clr4,.clr{
+        width: 28px;
+        height: 28px;
+    }
+    .clr2{
+        padding-bottom: 10% !important;
+    }
+    .clrcheck{
+        margin-top:-5%;
+    }
+    .no-box,.no-box1{
+        width: 64px;
+        height: 35px;
+        padding-top: 10px;
+    }
+    .line,.line2{
+        width: 315px;
+    }
+    .add-box {
+        width: 170px;
+        height: 40px;
+    }
+    .add-cart{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .fav-btn {
+        width: 25.1px;
+        height: 25px;
+    }
+    .r-fav{
+        font-size: 12px;
+    }
+    .ov-text,.sp-text{
+        font-size: 16px;
+    }
+    .sp-content{
+        width: 122px;
+    }
+    .list-li-p{
+        font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+    .product-row {
+        width: 100px;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+    .hs1{
+        width: 180px;
+        height: 234px;
+    }
+    .box1{
+        width: 315px;
+        height: 267px;
+    }
+    .box2{
+        margin-top: 1px;
+        gap: 15px;
+    }
+    .box3,.box4{
+        width: 70px;
+        height: 70px;
+        background-color: #F9F9F9;
+        padding-top: 6%;
+    }
+    .hs2{
+        width: 45px;
+        height: 43px;
+    }
+    .p-section{
+        flex-direction: column;
+    }
+    .p-content2{
+        margin-left: 2px;
+        margin-top: 30px;
+    }
+    .airpod{
+        font-size: 25px;
+        line-height: 10px;
+    }
+    .star-id {
+        width: 16px;
+        height: 16px;
+    }
+    .star-text{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .omr{
+        font-size: 10px;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .price1{
+        font-size: 14px;
+    }
+    .rating-para{
+        font-size: 12px;
+        width: 315px;
+    }
+    .rate-clr{
+        font-size: 12px;
+    }
+    .clr-box{
+        width: 43px;
+        height: 43px;
+    }
+    .clr1,.clr2,.clr3,.clr4,.clr{
+        width: 28px;
+        height: 28px;
+    }
+    .clr2{
+        padding-bottom: 10% !important;
+    }
+    .clrcheck{
+        margin-top:-5%;
+    }
+    .no-box,.no-box1{
+        width: 64px;
+        height: 35px;
+        padding-top: 10px;
+    }
+    .line,.line2{
+        width: 315px;
+    }
+    .add-box {
+        width: 170px;
+        height: 40px;
+    }
+    .add-cart{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .fav-btn {
+        width: 25.1px;
+        height: 25px;
+    }
+    .r-fav{
+        font-size: 12px;
+    }
+    .ov-text,.sp-text{
+        font-size: 16px;
+    }
+    .sp-content{
+        width: 122px;
+    }
+    .list-li-p{
+        font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+    .product-row {
+        width: 100px;
+        margin-left: 5%;
+    }
+}

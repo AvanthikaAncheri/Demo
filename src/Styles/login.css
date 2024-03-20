@@ -109,3 +109,102 @@ text-align: center;
 color: #EEEEEE;
 margin-top: 8px;
 }
+@media only screen and (max-width: 1024px) and (min-width:540px){
+    .l-login{
+        font-size: 16px;
+    }
+    .l-login-text {
+        margin-top: 1px;
+        font-size: 9px;
+        text-align: center;
+    }
+    .l-content{
+        padding-top: 8%;
+    }
+    .form-text{
+        width: 238px;
+        height: 40px;
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .or-text{
+        font-size: 10px;
+        margin-top: 1px;
+    width: 36px;
+    height: 36px;
+    }
+    .google-btn {
+        margin-top: 20px;
+        width: 238px;
+        height: 40px;
+        border: 1px solid #CDCDCD;
+        outline: none;
+        display: inline-flex;
+        background-color: #ffff;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .g-text{
+        font-size: 12px;
+    }
+    .card-button{
+        width: 150px;
+        height: 40px;
+        margin-left: 18%;
+        margin-top: 25px;
+    }
+    .btn-tag{
+        margin-top: 1px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+    .l-login{
+        font-size: 16px;
+    }
+    .l-login-text {
+        margin-top: 1px;
+        font-size: 9px;
+        text-align: center;
+    }
+    .l-content{
+        padding-top: 8%;
+    }
+    .form-text{
+        width: 238px;
+        height: 40px;
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .or-text{
+        font-size: 10px;
+        margin-top: 1px;
+    width: 36px;
+    height: 36px;
+    }
+    .google-btn {
+        margin-top: 20px;
+        width: 238px;
+        height: 40px;
+        border: 1px solid #CDCDCD;
+        outline: none;
+        display: inline-flex;
+        background-color: #ffff;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .g-text{
+        font-size: 12px;
+    }
+    .card-button{
+        width: 150px;
+        height: 40px;
+        margin-left: 18%;
+        margin-top: 25px;
+    }
+    .btn-tag{
+        margin-top: 1px;
+        font-size: 12px;
+    }
+}

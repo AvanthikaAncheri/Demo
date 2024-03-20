@@ -318,3 +318,261 @@ letter-spacing: 0em;
 text-align: left;
 color: #777777;
 }
+.Facheck{
+    color:white;
+    margin-top:25%;
+    width:57px;
+    height:57px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width:540px){
+    .table-borderless{
+        width: 350px;
+    }
+    .table-td,.table-td1{
+        flex-direction: column;
+    }
+    .w-airpods1 {
+        font-size: 8px;
+        margin-top: 11px;
+        line-height: 12px;
+        width: 54px;
+    }
+    th{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .w-airpods2{
+        font-size: 8px;
+        line-height: 12px;
+        margin-top: 60%;
+    }
+    .w-viewlist-txt2,.w-viewlist-txt3{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .td-btns{
+        flex-direction: column;
+    }
+    .w-view-list2,.w-view-list3{
+        height: 28px;
+        width: 70px;
+    }
+    .w-image {
+        width: 54.27px;
+        height: 54.27px;
+        background-color: #F9F9F9;
+    }
+    .cart-sections{
+        flex-direction: column;
+    }
+    .cart-section1{
+        width: 0px;
+    }
+    .sub,.one,.add{
+        font-size: 13px;
+    }
+    .sub{
+      margin-top: 1px;
+    }
+    .wrap-box{
+        width: 90px;
+        height: 42px;
+    }
+    .coupon{
+        font-size: 8px;
+        height: 30px;
+    }
+    .cart-btn11{
+        width: 77.31px;
+        height: 30px;
+    }
+    .cart-text11{
+        font-size: 8px;
+        line-height: 25px;
+    }
+    .cart-btn22{
+        height: 30px;
+        margin-left: 75px;
+    }
+    
+.cart-totals {
+    width: 300px;
+    height: 220px;
+    border: 1px solid #E2E2E2;
+    padding-top: 5%;
+    padding-left: 6%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.ct-text{
+    font-size: 14px;
+}
+.cart-subtotal{
+    padding-top: 2%;
+}
+.cart-subtl-text,.cart-omr-text{
+    font-size: 12px;
+    line-height: 20px;
+}
+.cart-omr-text1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.cart-subtl-btn {
+    margin-top: 8%;
+    width: 171.02px;
+    height: 33.5px;
+}
+.proceed{
+    padding-top: 0%;
+}
+.checkbox{
+    width: 120px;
+    height: 120px;
+}
+.check-clr{
+    width: 73px;
+    height: 73px;
+}
+.Facheck{
+    width:37px;
+    height:37px;
+}
+.purchase{
+    font-size: 20px;
+}
+.checkout-text {
+    margin-top: -21px;
+    font-size: 10px;
+    padding: 5%;
+    line-height: 13px;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+    .table-borderless{
+        width: 350px;
+    }
+    .table-td,.table-td1{
+        flex-direction: column;
+    }
+    .w-airpods1 {
+        font-size: 8px;
+        margin-top: 11px;
+        line-height: 12px;
+        width: 54px;
+    }
+    th{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .w-airpods2{
+        font-size: 8px;
+        line-height: 12px;
+        margin-top: 60%;
+    }
+    .w-viewlist-txt2,.w-viewlist-txt3{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .td-btns{
+        flex-direction: column;
+    }
+    .w-view-list2,.w-view-list3{
+        height: 28px;
+        width: 70px;
+    }
+    .w-image {
+        width: 54.27px;
+        height: 54.27px;
+        background-color: #F9F9F9;
+    }
+    .cart-sections{
+        flex-direction: column;
+    }
+    .cart-section1{
+        width: 0px;
+    }
+    .sub,.one,.add{
+        font-size: 13px;
+    }
+    .sub{
+      margin-top: 1px;
+    }
+    .wrap-box{
+        width: 90px;
+        height: 42px;
+    }
+    .coupon{
+        font-size: 8px;
+        height: 30px;
+    }
+    .cart-btn11{
+        width: 77.31px;
+        height: 30px;
+    }
+    .cart-text11{
+        font-size: 8px;
+        line-height: 25px;
+    }
+    .cart-btn22{
+        height: 30px;
+        margin-left: 75px;
+    }
+    
+.cart-totals {
+    width: 300px;
+    height: 220px;
+    border: 1px solid #E2E2E2;
+    padding-top: 5%;
+    padding-left: 6%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.ct-text{
+    font-size: 14px;
+}
+.cart-subtotal{
+    padding-top: 2%;
+}
+.cart-subtl-text,.cart-omr-text{
+    font-size: 12px;
+    line-height: 20px;
+}
+.cart-omr-text1{
+    font-size: 14px;
+    line-height: 20px;
+}
+.cart-subtl-btn {
+    margin-top: 8%;
+    width: 171.02px;
+    height: 33.5px;
+}
+.proceed{
+    padding-top: 0%;
+}
+.checkbox{
+    width: 120px;
+    height: 120px;
+}
+.check-clr{
+    width: 73px;
+    height: 73px;
+}
+.Facheck{
+    width:37px;
+    height:37px;
+}
+.purchase{
+    font-size: 20px;
+}
+.checkout-text {
+    margin-top: -21px;
+    font-size: 10px;
+    padding: 5%;
+    line-height: 13px;
+    text-align: center;
+}
+}

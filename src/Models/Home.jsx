@@ -20,19 +20,19 @@ function Home() {
        <Carousel style={{marginTop:"1%"}}>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 carousal-items"
       src={Banner}
       alt="First slide"
-      style={{ objectFit: "cover", height: "677px" }}
+      style={{ objectFit: "cover" }}
     />
    
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 carousal-items"
       src={Banner}
       alt="First slide"
-      style={{ objectFit: "cover", height: "677px" }}
+      style={{ objectFit: "cover"}}
     />
    
   </Carousel.Item>
@@ -41,7 +41,7 @@ function Home() {
       <Row>
         <Col className='d-flex gap-4 mt-5'>
            <div><img src={Image1} alt="" className='h-image' fluid/></div>
-           <div style={{marginLeft:"28%"}}><img src={Image2} alt="" className='h-image1' fluid/></div>
+           <div className='h-image-box'><img src={Image2} alt="" className='h-image1' fluid/></div>
         </Col>
       </Row>
     </Container>

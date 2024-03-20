@@ -3,6 +3,9 @@
 body{
     overflow-x: hidden;
 }
+.carousal-items{
+    height: 677px;
+}
 .h-image{
     width: 250%;
     /* width: 789px; */
@@ -12,6 +15,9 @@ height: 477px;
     /* width: 539px; */
     width: 70%;
 height: 477px;
+}
+.h-image-box{
+    margin-left:28%;
 }
 .section{
     /* width: 72%; */
@@ -296,4 +302,188 @@ padding-top: 2.5%;
     border-top: 1px solid #EEEEEE;
     margin-bottom: 10px;  
     margin-left: 10%;
+}
+.create{
+   margin-left: 40%;
+    margin-top: 8%;
+}
+
+@media only screen and (max-width: 1024px) and (min-width:540px){
+    /* body{
+        overflow-x: hidden !important;
+    } */
+    .carousal-items{
+        height: 177px;
+    }
+    .h-image {
+        width: 160%;
+        /* width: 789px; */
+        height: 97px;
+        margin-left: 10%;
+    }
+    .h-image1 {
+        /* width: 539px; */
+        width: 60%;
+        height: 97px;
+        margin-left: 10%;
+    }
+    .h-image-box{
+        margin-left:1%;
+    }
+    .products-name{
+        font-size: 22px;
+    }
+    .view-product{
+        font-size: 10px;
+        margin-top: 3%;
+    }
+    .products{
+        height: 42px;
+        margin-top: 5%;
+    }
+    .column{
+        display: none;
+    }
+    .col-4{
+        margin-left: 5%;
+        width: 80%;
+    }
+    .brands {
+        display: flex;  
+        gap: 15px;      /* Add some space between children */
+        width: 100%;    /* Set the width to 100% */
+        /* overflow-x: auto;  */
+        white-space: nowrap; /* Prevent wrapping of children */
+      }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7{
+        width: 52px;
+        height: 52px;
+    }
+    .apple{
+        width: 27px;
+    height: 26px;
+    margin-top: -5%;
+    
+    }
+    .realme{
+        width: 41px;
+    height: 27px;
+        margin-top: -3px;
+    }
+    .sony{
+        width: 33px;
+        height: 7px;
+        margin-top: -5px;
+    }
+    .mi {
+        width: 23px;
+        height: 20px;
+        margin-top: -3px;
+    }
+    .samsung {
+        width: 42px;
+        height: 28px;
+    }
+    .lg {
+        width: 35px;
+    height: 30px;
+    margin-top: -5%;
+    }
+    .dell {
+        width: 45px;
+        height: 24px;
+        margin-top: -7px;
+    }
+    .create{
+        margin-left: 5%;
+     }
+}
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+    /* body{
+        overflow-x: hidden !important;
+    } */
+    .carousal-items{
+        height: 177px;
+    }
+    .h-image {
+        width: 160%;
+        /* width: 789px; */
+        height: 97px;
+        margin-left: 10%;
+    }
+    .h-image1 {
+        /* width: 539px; */
+        width: 60%;
+        height: 97px;
+        margin-left: 10%;
+    }
+    .h-image-box{
+        margin-left:1%;
+    }
+    .products-name{
+        font-size: 22px;
+    }
+    .view-product{
+        font-size: 10px;
+        margin-top: 3%;
+    }
+    .products{
+        height: 42px;
+        margin-top: 5%;
+    }
+    .column{
+        display: none;
+    }
+    .col-4{
+        margin-left: 5%;
+        width: 80%;
+    }
+    .brands {
+        display: flex;  
+        gap: 15px;      /* Add some space between children */
+        width: 100%;    /* Set the width to 100% */
+        /* overflow-x: auto;  */
+        white-space: nowrap; /* Prevent wrapping of children */
+      }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7{
+        width: 38px;
+        height: 38px;
+    }
+    .apple{
+        width: 13px;
+    height: 23px;
+    
+    }
+    .realme{
+        width: 23px;
+    height: 25px;
+        margin-top: -3px;
+    }
+    .sony{
+        width: 17px;
+        height: 7px;
+        margin-top: -5px;
+    }
+    .mi {
+        width: 16px;
+        height: 16px;
+        margin-top: -3px;
+    }
+    .samsung {
+        width: 23px;
+        height: 16px;
+    }
+    .lg {
+        width: 30px;
+        height: 25px;
+    }
+    .dell {
+        width: 24px;
+        height: 15px;
+        margin-top: -7px;
+    }
+    .create{
+        margin-left: 5%;
+     }
 }

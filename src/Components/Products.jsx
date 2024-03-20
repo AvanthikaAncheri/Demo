@@ -18,7 +18,7 @@ function Products() {
     <div style={{marginTop:"20px",marginBottom:"20px"}}>
         <Container>
           <Row>
-             <Col className="col-4 h-200">
+             <Col className="col-4 h-200 column">
                  <Card style={{ width: '28rem' }} className='h-100'>
                     <Card.Img variant="top" src={Phone} className='phone'/>
                     <Card.Body className='my-card-body'>

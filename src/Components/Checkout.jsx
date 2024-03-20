@@ -9,7 +9,7 @@ function Checkout() {
         <div className="checkout">
             <div className="checkbox">
                 <div className="check-clr">
-                <FaCheck style={{color:"white",marginTop:"25%",width:"57px",height:"57px"}}/>
+                <FaCheck className='Facheck'/>
                 </div>
             </div>
             <div className="purchase">Purchased Succesfully</div>

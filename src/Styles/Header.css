@@ -175,3 +175,64 @@ gap: 10px;
 border: 1px solid #000000;  
 background-color: #000000;
 }
+
+@media only screen and (max-width: 1024px) and (min-width:540px){
+
+    .logo {
+        width: 84px;
+        height: 25px;
+    }
+    .search{
+        display: none;
+    }
+    .search-btn {
+        width: 38.04px;
+        height: 30px;
+        margin-top: 30%;
+        margin-left: -30px;
+    }
+    .horizontal-line {
+        height: 29px;
+    }
+    .icon-box {
+        width: 30px;
+        height: 30px;
+    }
+    .icon-icon{
+        width: 10px;
+        height: 10px;
+        margin-top: -5%;
+    }
+}
+
+
+
+@media only screen and (max-width: 540px) and (min-width:250px){
+
+    .logo {
+        width: 84px;
+        height: 25px;
+    }
+    .search{
+        display: none;
+    }
+    .search-btn {
+        width: 38.04px;
+        height: 30px;
+        margin-top: 30%;
+        margin-left: -30px;
+    }
+    .horizontal-line {
+        height: 29px;
+    }
+    .icon-box {
+        width: 30px;
+        height: 30px;
+    }
+    .icon-icon{
+        width: 10px;
+        height: 10px;
+        margin-top: -5%;
+    }
+}
+
